@@ -1,0 +1,33 @@
+{
+	"name": "oliverthiele/ot-lib",
+	"type": "typo3-cms-extension",
+	"description": "Library of ViewHelpers and DataProcessors",
+	"license": [
+		"GPL-2.0-or-later"
+	],
+	"version": "v1.0.0",
+	"authors": [
+		{
+			"name": "Oliver Thiele",
+			"email": "mail@oliver-thiele.de",
+			"homepage": "https://www.oliver-thiele.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^11.5"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "ot_lib"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"OliverThiele\\OtLib\\": "Classes/"
+		}
+	}
+}
