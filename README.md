@@ -4,8 +4,52 @@ This library provides ViewHelper and DataProcessors to my various TYPO3 sitepack
 
 ## Requirements
 
-* TYPO3 v11.5 LTS
-* Additional database fields in the sitepackage
+* TYPO3 v12.4 LTS
+* Additional database fields in the sitepackage for some of the DataProcessors / ViewHelpers.
+
+
+## ViewHelpers
+
+### AgeViewHelper
+
+Mit diesem ViewHelper kann ein Datum automatisch in Texte umgewandelt werden.
+
+todo: Lokalisierung muss noch eingebaut werden
+
+### GravatarViewHelper
+
+Mit dem ViewHelper kann mit einer E-Mail der Link zu dem Gravatar-Bilder erstellt werden.
+
+todo: Ein Gravatar-Bild Proxy wäre aus Datenschutzsicht besser.
+
+### JsonViewHelper
+
+Enkodiert oder dekodiert JSON
+
+### DivisionViewHelper
+
+Dividiert Dividend / Divisor in einem Try/Catch Block
+
+### VideoViewHelper
+
+Holt sich das Poster-Bild zu einem Video
+
+* Video: fileadmin/user_uploads/Videos/myVideo.mp4
+* Poster image: fileadmin/user_uploads/Videos/myVideo.mp4.jpg
+
+### HeaderViewHelper
+
+Wenn der CKeditor für Überschriften aktiviert wird, um mehrzeilige Überschriften mit `<b>`
+als zusätzliche Formatierung zu nutzen, dann kann der HTML-Code vom RTE bereinigt werden.
+
+### ParamsViewHelper
+
+Extrahiert per Default den Titel aus einem TypoLink-String, kann aber auch andere Parameter extrahieren.
+
+### Nl2ArrayViewHelper
+
+Returns all rows of a text as array of lines
+
 
 ## Data processors
 
