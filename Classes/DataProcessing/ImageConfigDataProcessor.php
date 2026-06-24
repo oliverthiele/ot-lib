@@ -103,8 +103,8 @@ class ImageConfigDataProcessor implements DataProcessorInterface
             'imageConfig' => [
                 'equalCropVariants' => $equalCropVariants,
                 'cropVariants' => $cropVariants,
-                'imagecols' => $processedData['data']['imagecols']
-            ]
+                'imagecols' => $processedData['data']['imagecols'],
+            ],
         ];
 
         return array_merge_recursive($processedData, $additionalProcessedData);

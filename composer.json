@@ -5,6 +5,7 @@
 	"license": [
 		"GPL-2.0-or-later"
 	],
+	"version": "v1.0.0",
 	"authors": [
 		{
 			"name": "Oliver Thiele",
@@ -14,7 +15,7 @@
 		}
 	],
 	"require": {
-		"typo3/cms-core": "^v12.4.9"
+		"typo3/cms-core": "^11.5||^12.4||^13.4"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest"
