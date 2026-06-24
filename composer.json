@@ -5,7 +5,6 @@
 	"license": [
 		"GPL-2.0-or-later"
 	],
-	"version": "v1.0.0",
 	"authors": [
 		{
 			"name": "Oliver Thiele",
@@ -21,6 +20,10 @@
 		"roave/security-advisories": "dev-latest"
 	},
 	"extra": {
+		"branch-alias": {
+			"dev-main": "1.x-dev",
+			"dev-develop": "2.x-dev"
+		},
 		"typo3/cms": {
 			"extension-key": "ot_lib"
 		}
